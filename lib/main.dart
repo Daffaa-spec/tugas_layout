@@ -79,9 +79,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // ======================
-  // CARD GAMBAR NETWORK
-  // ======================
+  // GAMBAR NETWORK
   Widget buildImageCard(String imageUrl) {
     return Card(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
