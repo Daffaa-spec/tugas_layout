@@ -17,16 +17,14 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        title: Text("Manchester United"),
+        title: Text("Khing MU"),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 253, 2, 2),
       ),
       body: ListView(
         padding: EdgeInsets.all(16),
         children: [
-          // ======================
-          // 2 GAMBAR ATAS
-          // ======================
+          // 2 KOTAK ATAS
           Row(
             children: [
               Expanded(
@@ -45,9 +43,7 @@ class HomePage extends StatelessWidget {
 
           SizedBox(height: 20),
 
-          // ======================
           // MENU ICON
-          // ======================
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -59,11 +55,9 @@ class HomePage extends StatelessWidget {
 
           SizedBox(height: 30),
 
-          // ======================
-          // ARTIKEL
-          // ======================
+          // ISI TEXT
           Text(
-            "Stadion Old Trafford, Markas Manchester United",
+            "Stadion Old Trafford, Kandang Setan Merah",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10),
@@ -99,9 +93,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // ======================
   // MENU
-  // ======================
   Widget buildMenu(IconData icon, String title) {
     return Column(
       children: [
